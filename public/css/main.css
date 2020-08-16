@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,8e8e8e+45,2c2c2c+50,000000+51,111111+60,2b2b2b+76,131313+85,131313+85 */
+    background-image: radial-gradient(circle, #080809, #1d1e1f, #2f3232, #434645, #5a5b58);
+    background-size: cover;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 15px;
+    color: white;
+}
+
+#nav {
+    width: 100%
+}
+
+.navbarbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.photo {
+    width: 50%;
+}
+
+.headshot {
+    border-radius: 50%;
+}
+
+.navlinks {
+    padding-top: 5%;
+    color: white;
+}
