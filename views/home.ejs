@@ -2,19 +2,23 @@
 
 <body>
     <%- include('./partials/nav.ejs') %>
-    <div class="title">
-        <h1>Title</h1>
-    </div>
-    <div class="photo">
-        <img class="headshot" src="/assets/headshot.png">
-    </div>
-    <div class="navlinks">
-        <ul>
-            <li><a href="/projects">Projects</a></li>
-            <li><a href="/resume">Resume</a></li>
-            <li><a href="/about">About me</a></li>
-            <li><a href="/contact">Contact Information</a></li>
-        </ul>
+    <div class="container">
+        <h1>Robert Poston</h1>
+        <h3>Chicago Software Engineer</h3>
+        <div class="photo">
+            <img class="headshot" src="/assets/headshot.png">
+        </div>
+        <article>
+            An old touring electrician, and new software engineer looking to use the skills i developed over the course of my career and to build upon the newer ones I learned during a 13 week, 650 hour software engineering immersive.
+        </article>
+        <div class="navlinks">
+            <ul>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/resume">Resume</a></li>
+                <li><a href="/about">About me</a></li>
+                <li><a href="/contact">Contact Information</a></li>
+            </ul>
+        </div>
     </div>
     <footer>
         <%- include('./partials/footer.ejs') %>

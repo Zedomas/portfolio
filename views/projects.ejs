@@ -2,5 +2,57 @@
 
 <body>
     <%- include('./partials/nav.ejs') %>
+    <div class="container">
+        <h1>Projects</h1>
+        <div class="project-containers">
+
+            <div class="project">
+                <img class="project-img"  src="/assets/memendr.png" />
+                <article class="project-descrip">
+                    Memendr:
+                    A tinder-esque app that allows users to like or dislike images, also upload their own.
+                    Django framework full CRUD app, that stores images using AWS's S3 bucket system and a Postgres Database. It also uses a Twitter API to send out a daily tweet based on the most liked photo of the day.
+                    Python, Django, Bootstrap4
+                </article>
+                <a href="https://memendr.herokuapp.com/">Live Site</a>
+                <a href="https://github.com/Zedomas/Memendr">GitHub</a>
+            </div>
+
+            <div class="project">
+                <img class="project-img" src="/assets/Barfinder.png" />
+                <article class="project-descrip">
+                    BarFinder: Yelp clone, Full Node.js CRUD application that allows users to add, edit, and update local chicago bars. It also allows both logged in and unlogged in users to leave reviews
+                    Node.js, Mongoose, Express, Bootstrap4
+                    <br/>
+                    <br>
+                   <a href="https://chicago-bars.herokuapp.com/bars">Live Site</a>
+                    <a href="#">GitHub</a>  
+                </article>
+            </div>
+
+            <div class="project">
+                <img class="project-img" src="/assets/blackjack.png">
+                <article class="project-descrip">
+                    Blackjack: A game made using JQuery Dom manipulation and a third party API called deck-of-cards-api. Also all manual CSS, although a CSS Framework would of been very helpful, I limited myself to no outside help besides the API.
+                    Node.js, Express, JQuery
+                    <br>
+                    <br>
+                    <a href="https://zedomas.github.io/">Live Site</a>
+                    <a href="https://github.com/Zedomas/Full-stack-app">GitHub</a>
+                </article>
+            </div>
+
+            <div class="project">
+                <img class="project-img" src="/assets/bridge.png">
+                <article class="project-descrip">
+                    Bridge: Group project with four other developers. Using Github for version control. We made a collection app that ultilized four different APIs and the MERN stack
+                    <br>
+                    <br>
+                    <a href="https://bridge-app-react.herokuapp.com/">Live Site</a>
+                    <a href="https://github.com/Zedomas/Bridge">GitHub</a>
+                </article>
+            </div>
+        </div>
+    </div>
 
 </body>
